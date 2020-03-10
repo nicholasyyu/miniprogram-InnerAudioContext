@@ -1,0 +1,7 @@
+<view class="page">
+<button type="primary" bindtap="audioPlay" data-index="0">播放</button>
+<button type="primary" bindtap="audioPause">暂停</button>
+<button type="primary" bindtap="audioStop">停止</button>
+<text>当前状态：{{status}}</text>
+<slider min="0" max="{{duration}}" value="{{current}}" bindchange="hanle_slider_change" block-size="18" activeColor="#b48976" backgroundColor="#e9e9e9"/>
+</view>
